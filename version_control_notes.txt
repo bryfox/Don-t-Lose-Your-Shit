@@ -1,18 +1,18 @@
 Version Control and Backups
 
-Version Control foo
-
-Why should you care?
-- REQUIRED for getting a job at any place that's not a joke
-- gives you access to open source software projects (Google Code, GitHub)
+Why do we care?
+- gives us access to open source software projects (GitHub, BitBucket)
+-- drupal.org moving to git
 - absolutely essential collaboration tool
-- stop keeping a million slightly different versions of the same file
+-- esp. with shared dev servers
+- decentralized backups
+- REQUIRED for getting a job at any place that's not a joke
 
 What is Version Control?
-  - keep track of changes made to documents on your computer
-  - see old versions of your files and restore to them
-  - share those changes with collaborators
-  - sync up with your collaborators improvements
+- keep track of changes made to documents on your computer
+- see old versions of your files and restore to them
+- share those changes with collaborators
+- sync up with your collaborators improvements
 
 How does it work?
 - a repo
@@ -20,21 +20,14 @@ How does it work?
 - pull/push
 - branching
 
-What does using it feel like?
-- example
-
 What are the options?
 - Centralized vs. Decentralized
-- What's the difference?
-- SVN vs. Git
-- technical: simple vs. more powerful
-- social: GitHub
+- SVN vs. Hg
+- technical: simple vs. more powerful (e.g., cheap branching)
 
-Backups:
-- Just Fucking Make a Backup
-- Time Machine
-- Bootable backup?
-- Super Duper/Carbon Copy Cloner
-- offsite?
-- Backblaze
-- Amazon S3
+Demo
+- bitbucket ssh keys
+- staging area: where do commits go?
+- hg commit only a certain file/directory.
+- branching
+
